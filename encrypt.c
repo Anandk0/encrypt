@@ -11,13 +11,13 @@ int main()
     switch(x)
     {
         case 1:for(i = 0; (i < 100 && str[i] != '\0'); i++)
-        str[i] = str[i] + 3;
-        printf("\nEncrypted string: %s\n", str);
-        break;
+                str[i] = str[i] + 3;
+                printf("\nEncrypted string: %s\n", str);
+                break;
         case 2:for(i = 0; (i < 100 && str[i] != '\0'); i++)
-        str[i] = str[i] - 3;
-        printf("\nDecrypted string: %s\n", str);
-        break;
+                str[i] = str[i] - 3;
+                printf("\nDecrypted string: %s\n", str);
+                break;
         default:printf("\nError\n");
     }
     return 0;
